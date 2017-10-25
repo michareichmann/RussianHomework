@@ -1,0 +1,47 @@
+\documentclass[a4paper]{article}
+% \usepackage[utf8]{inputenc}
+\usepackage{fontspec}
+\usepackage{polyglossia}
+\newfontfamily{\cyrillicfont}{Carlito}  %{Liberation Mono}
+\setmainlanguage{russian} 
+\setotherlanguage{english}
+% \usepackage[russian]{babel}
+\usepackage{fancyhdr}% http://ctan.org/pkg/fancyhdr
+\pagestyle{fancy}% Change page style to fancy
+\fancyhf{}% Clear header/footer
+\fancyhead[C]{\textit{Portfolioaufgabe 2}\hfill Michael Reichmann}
+\input{extrapackages}
+\input{newcommands}
+\usepackage{amsthm}
+\theoremstyle{plain}
+%\newtheorem*{def}
+
+\makeindex
+\begin{document}
+
+\begin{description}
+ 	\item[\textcolor{red}{Aufgabe 2:}] Schreiben Sie einen kleinen Dialog im Geschäft zwischen Verkäufer und Kunde (ca. 120 Wörter). Mögliche Elemente: Begrüssung; Frage nach \linebreak Vorhandensein / Preis von Waren; Bewertung der Preise (teuer oder nicht); \linebreak Mengenangaben, Verpackungen; „Geben Sie bitte“; Verabschiedung, usw.)  
+\end{description}
+\vspace*{1cm}
+
+\begin{itemize}
+	\item Здравствуйте!
+	\item[$\circ$] Здравствуйте! Добро пожаловать в наш зоомагазин. Могу ли я вам чем-то помочь?
+	\item Я хочу копить домашнее животное для моей подруги.
+	\item[$\circ$] Какие её любимые животные?
+	\item Она любит кошек и уток но она не любит собак. У вас есть утки?
+	\item[$\circ$] Извините нет. Но у нас есть красивые кошки! Вы хотите их увидеть?
+	\item Да, пожалуйста!
+	\item[$\circ$] Вот здесь серые котята а здесь рыжие котята.
+	\item Отлично! Я люблю красивых кошек. сколько им лет?
+	\item[$\circ$] Они ещё очень молодые. Им всего полгода.
+	\item И сколько они стоят? 
+	\item[$\circ$] Один котёнок - пятьсот франков. 
+	\item Это слишком дорого...
+	\item[$\circ$] Да, это породистые коты. Вам нужно что-то еще?
+	\item Нет, спасибо. До свидания.
+	\item[$\circ$] До свидания.
+	\item Я пойду к озеру и поймаю утку для моей подруги.
+\end{itemize}
+
+\end{document} 
