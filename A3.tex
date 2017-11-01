@@ -1,0 +1,44 @@
+\documentclass[a4paper]{article}
+% \usepackage[utf8]{inputenc}
+\usepackage{fontspec}
+\usepackage{polyglossia}
+\newfontfamily{\cyrillicfont}{Carlito}  %{Liberation Mono}
+\setmainlanguage{russian} 
+\setotherlanguage{english}
+% \usepackage[russian]{babel}
+\usepackage{fancyhdr}% http://ctan.org/pkg/fancyhdr
+\pagestyle{fancy}% Change page style to fancy
+\fancyhf{}% Clear header/footer
+\fancyhead[C]{\textit{Portfolioaufgabe 3}\hfill Michael Reichmann}
+\input{extrapackages}
+\input{newcommands}
+\usepackage{amsthm}
+\theoremstyle{plain}
+%\newtheorem*{def}
+
+\makeindex
+\begin{document}
+
+\begin{description}
+ 	\item[\textcolor{red}{Aufgabe 3:}] Otlitschno A2, Kursbuch, урок 1, задание 3е, стр. 10: Schreiben Sie sowohl a) eine zustimmende Antwort Katharinas, wie auch b) eine ablehnende Antwort (SMS) Katharinas auf Lenas SMS, da Katharina schon eine andere Einladung hat (je etwa 10 bis 20 Wörter pro SMS)! 
+\end{description}
+\vspace*{1cm}
+
+
+\begin{description}
+    \item[\textbf{Лена:}] Привет. Звоню и звоню, но ответчает только автоотвечик. У тебя в субботу будет время? У меня 2 билета в кино. Лена 
+\end{description}
+
+
+\begin{itemize}
+	\item[a)] 
+	    \begin{description}
+            \item[\textbf{Катарина:}] О, привет! У меня будет время в субботу и я хочу пойти в кино с тобой. Какой фильм мы будем смотреть? До завтра! 
+        \end{description}
+	\item[b)] 
+	    \begin{description}
+            \item[\textbf{Катарина:}] О, зтравствуй Лена! Извини, в суббату, к сожаленю, не могу. Мы с парнем будем идти в музикальный театр. Пака! 
+        \end{description}
+\end{itemize}
+
+\end{document}
