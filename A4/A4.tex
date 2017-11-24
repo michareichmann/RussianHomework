@@ -1,0 +1,43 @@
+\documentclass[a4paper]{article}
+% \usepackage[utf8]{inputenc}
+\usepackage{fontspec}
+\usepackage{polyglossia}
+\newfontfamily{\cyrillicfont}{Carlito}  %{Liberation Mono}
+\setmainlanguage{russian} 
+\setotherlanguage{english}
+% \usepackage[russian]{babel}
+\usepackage{fancyhdr}% http://ctan.org/pkg/fancyhdr
+\pagestyle{fancy}% Change page style to fancy
+\fancyhf{}% Clear header/footer
+\fancyhead[C]{\textit{Portfolioaufgabe 4}\hfill Michael Reichmann}
+\input{extrapackages}
+\input{newcommands}
+\usepackage{amsthm}
+\theoremstyle{plain}
+%\newtheorem*{def}
+
+\makeindex
+\begin{document}
+
+\begin{description}
+ 	\item[\textcolor{red}{Aufgabe 4:}] Schreiben Sie einen kleinen Dialog im Restaurant zwischen официант(ка) und гость (ca. 50 bis 60 Wörter, wie in Otlitschno A2, Kursbuch, Lektion 1,\\ Aufgabe 4г).
+\end{description}
+\vspace*{1cm}
+
+
+\begin{itemize}
+	\item[$\circ$] Здравствуйте! Вы уже знаете что вы хотите заказать? 
+	\item Здравствуйте! Да, я решил.
+	\item[$\circ$] Отлично! Что вы будете пить?
+	\item На аперитиве я возьму бокал апероля!
+	\item[$\circ$] Хорошо. А что вы будете есть? Вы хотите закуски?
+	\item Да, на закуски салат оливье.
+	\item[$\circ$] А на первое блюдо?
+	\item Грибная икра. Что вы рекомендуете на второе блюдо?
+	\item[$\circ$] Наши голубцы очень вкусные!
+	\item Очень хорошо! Я люблю голубцы! А я также хочу красного вина ко второму блюду.
+	\item[$\circ$] Хорошо. Это всё?
+	\item Да, спасибо.
+\end{itemize}
+
+\end{document}
